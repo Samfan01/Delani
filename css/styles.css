@@ -26,5 +26,18 @@ body, html {
 }
 .about{
     text-align: center;
-    padding-bottom:400px;
+    }
+.hero-image2 {
+  background-image: url("/images/image2.jpg");
+  width: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.hero-text2 {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
 }
