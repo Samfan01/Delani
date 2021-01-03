@@ -3,19 +3,28 @@ body, html {
 }
 .hero-image {
   background-image: url("/images/image1.jpg");
-  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 200px;
-}
+  background-size: contain;
+  position: inherit;
+  padding: 160px;
+  }
 .hero-text {
   text-align: center;
   top: 50%;
   left: 50%;
   color: white;
+  font-weight: bold;
+  font-size: small;
+  padding-top:150px;
 }
-#welcome{
-    padding-top: 20px;
+#welcome,welcome1{
+    padding-top: 30px;
+}
+#mouse{
+    padding-top:100px;
+}
+.about{
+    text-align: center;
+    padding-bottom:400px;
 }
