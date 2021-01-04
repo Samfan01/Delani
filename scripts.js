@@ -1,5 +1,4 @@
 var test='#design1'
-var user=$('#name').val()
 $(document).ready(function() {
     $('.design').click(function(){
     $('.design').hide()
@@ -10,12 +9,31 @@ $(document).ready(function() {
         $('.design').toggle()
     })
 $('.develop').click(function(){
+    $('.develop').hide()
     $('#development').toggle()
 });
+$('#development').click(function(){
+    $('#development').hide()
+    $('.develop').toggle()
+});
 $('.products').click(function(){
+    $('.products').hide()
     $('#product').toggle()
 });
-$('form').submit(function(){
-    alert(user)
-})
+$('#product').click(function(){
+    $('#product').hide()
+    $('.products').toggle()
+});
+$('#submit').click(function(){
+    var user=$('#name').val()
+     if(user===""){
+        alert("enter a valid name")
+    }
+    alert("Thank you "+user+" for your feedback")
+    
+});
+$("#pic").hover(function(){
+    $(this).css("background-color", "yellow");
+    
+  });
 })
