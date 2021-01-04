@@ -56,3 +56,7 @@
 #design,#development,#product{
   display: none;
 } 
+#portfolio{
+  text-align: center;
+  margin: 2px;
+}
