@@ -41,5 +41,10 @@ body, html {
   top: 50%;
   left: 50%;
   color: white;
-  padding-top: 40px;
+  padding-top:80px;
+  font-size: small;
+  font-weight: bolder;
+}
+#row1{
+  padding-top: 500px;
 }
