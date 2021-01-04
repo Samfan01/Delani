@@ -1,6 +1,6 @@
-body, html {
+/*body, html {
     height: 100%;
-}
+}*/
 .hero-image {
   background-image: url("/images/image1.jpg");
   background-position: center;
@@ -46,5 +46,14 @@ body, html {
   font-weight: bolder;
 }
 #row1{
-  padding-top: 500px;
+  padding:50px;
+  margin-left: 20%;
+}
+#row1>p{
+  text-align: center;
+}
+#heading2{
+  padding-top: 550px;
+  margin-left: 40%;
+  
 }
