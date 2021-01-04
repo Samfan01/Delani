@@ -60,3 +60,8 @@
   text-align: center;
   margin: 2px;
 }
+#form{
+  text-align: center;
+  background-image: url("/images/c_image.jpg");
+  background-size: contain;
+}
