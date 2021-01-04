@@ -33,7 +33,7 @@ $('#submit').click(function(){
     
 });
 $("#pic").hover(function(){
-    $(this).css("background-color", "yellow");
+    $(this).css("overlay", "yellow");
     
   });
 })
