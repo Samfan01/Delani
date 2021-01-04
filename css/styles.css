@@ -53,7 +53,7 @@
   padding-top: 550px;
   margin-left: 40%;
 }
-#design,#development,#product{
+#design1,#development,#product{
   display: none;
 } 
 #portfolio{
@@ -64,4 +64,16 @@
   text-align: center;
   background-image: url("/images/c_image.jpg");
   background-size: contain;
+  height:500px;
+  background-repeat: no-repeat;
+}
+#foot{
+  margin-left: 100px;
+  padding-bottom: 10px;
+}
+#signoff{
+  text-align: center;
+}
+#subject{
+  height: 100px;
 }
