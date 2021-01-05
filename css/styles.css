@@ -2,7 +2,7 @@
     height: 100%;
 }*/
 .hero-image {
-  background-image: url("./images/image1.jpg");
+  background-image: url("../images/image1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -29,7 +29,7 @@
   height: 10px;
 }
 .hero-image2 {
-  background-image: url("./images/image2.jpg");
+  background-image: url("../images/image2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -62,7 +62,7 @@
 }
 #form{
   text-align: center;
-  background-image: url("./images/c_image.jpg");
+  background-image: url("../images/c_image.jpg");
   background-size: contain;
   height: 450px;
   background-position: center;
