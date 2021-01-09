@@ -79,10 +79,15 @@
   height: 100px;
 }
 .port{
-  margin-left: 15%;
-  padding: 45px;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  padding: 35px;
+  /*width: 100%;
+  height: 100%;*/
+}
+#pic,#pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7{
+  border: 6px solid white;
 }
 #form{
    color: whitesmoke; 
@@ -108,3 +113,80 @@ textarea[id=subject]{
 #submit{
   background: transparent;
 }
+#pic{
+  background-image: url('../images/port1.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic1{
+  background-image: url('../images/port2.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic2{
+  background-image: url('../images/port3.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic3{
+  background-image: url('../images/port4.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic4{
+  background-image: url('../images/port5.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic5{
+  background-image: url('../images/port6.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic6{
+  background-image: url('../images/port7.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#pic7{
+  background-image: url('../images/port8.jpg');
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.p-name{
+  text-align: center;
+  padding: 25%;
+  padding-left: 15px;
+  color:white;
+  font-weight: 900;
+  font-size: larger;
+  border: 10px dashed white;
+  display: none;
+  height: 135px;
+  width: 140px;
+}
+

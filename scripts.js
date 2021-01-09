@@ -1,4 +1,5 @@
 var test='#design1'
+var effects=['#pic','#pic1','#pic2','#pic3','#pic4','#pic5','#pic6','#pic7']
 $(document).ready(function() {
     $('.design').click(function(){
     $('.design').hide()
@@ -32,8 +33,9 @@ $('#submit').click(function(){
     alert("Thank you "+user+" for your feedback")
     
 });
-$("#pic").hover(function(){
-    $(this).css("overlay", "yellow");
-    
-  });
-})
+effects.forEach(function(effect){
+    $(effect).hover(function(){
+     $(effect+" .p-name").toggle()
+    })
+});
+});
